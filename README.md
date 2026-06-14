@@ -31,7 +31,7 @@ This repository documents my real-world lab work with Wazuh, including setup, co
 ```xml
 <client>
   <server>
-    <address>192.168.1.156</address>
+    <address><Wazuh IP Address></address>
     <port>1514</port>
     <protocol>tcp</protocol>
   </server>
