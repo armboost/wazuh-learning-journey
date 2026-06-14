@@ -82,6 +82,8 @@ su wrongpassword
 # Repeated 5-6 times
 ```
 
+This was a failed attempt, but it got me thinking of the next step to brute force. 
+
 **Result:** Authentication failure alerts appeared in real time in the Wazuh dashboard, mapped to **MITRE ATT&CK T1110 — Brute Force**.
 
 **Key insight:** This is exactly what a SOC Analyst monitors for in a real environment.
@@ -91,6 +93,7 @@ su wrongpassword
 ## Concepts Learned
 
 ### File Integrity Monitoring (FIM)
+Did not set this up, but researched this and learned more about this. I will try this someday. 
 Wazuh's FIM module watches for file changes across monitored directories. Configured in `ossec.conf` under the `<syscheck>` block.
 
 **Default monitored paths:**
@@ -225,4 +228,4 @@ echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
 ---
 
-*This repo is part of my ongoing preparation for the DEAFCYBER Hiring Village (October 2026) and SOC Analyst roles in the NoVA/DC corridor.*
+*This repo is part of my ongoing preparation for SOC Analyst Tier 1 or Junior roles*
