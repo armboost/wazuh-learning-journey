@@ -13,12 +13,10 @@
 - Result: Multiple failed auth attempts → Wazuh sshd rules → MITRE T1110 alert
 
 ### What I learned
-- [add your own notes here — e.g., observations on bucket aggregations, MITRE field mapping, anything that surprised you]
+- I learned there are many different terms, fields and visualizations in the Wazuh dashboard that can alert you to certain techniques. This shows me how a hacker could potentially try to crack a password with online brute forcing. 
 
 ### Screenshots
-![Kali attack](../assets/screenshots/2026-06-13-kali-attack.png)
-![Wazuh dashboard](../assets/screenshots/2026-06-13-dashboard.png)
-
+Screenshot is added to the repo with Brute Force results in the Wazuh dashboard.
 ### Next steps
 - [ ] Build recon dashboard (T1046/T1018) — Kali nmap scans against agent
 - [ ] Investigate whether plain port scans generate Wazuh alerts without additional log sources (auditd, firewall, Suricata)
